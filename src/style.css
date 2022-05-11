@@ -1,0 +1,100 @@
+body {
+  background: radial-gradient(
+    circle at 10.6% 22.1%,
+    rgb(206, 18, 18) 0%,
+    rgb(122, 21, 21) 100.7%
+  );
+}
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  border: 1px solid black;
+  border-color: rgb(206, 18, 18);
+  border-radius: 4px;
+  padding: 20px;
+}
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+  font-family: monospace;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: rgb(206, 18, 18);
+  color: white;
+  font-family: monospace;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.morning-tour {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  font-family: monospace;
+}
+.guard-times {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  font-family: monospace;
+  font-size: 12px;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(206, 18, 18);
+}
+.guard-times:hover {
+  text-decoration: underline;
+}
+.afternoon-tour {
+  display: block;
+  text-align: center;
+  line-height: 1.5;
+  font-family: monospace;
+}
+.insta {
+  color: rgb(206, 18, 18);
+  text-decoration: none;
+}
+.insta:hover {
+  text-decoration: underline;
+}
+.footer-end {
+  text-align: center;
+  font-family: monospace;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 60px;
+  background-color: white;
+}
