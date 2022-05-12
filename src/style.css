@@ -44,7 +44,15 @@ h1 {
   font-size: 25px;
 }
 
-h2 {
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h2,
+h3,
+h4,
+h5 {
   text-align: center;
   font-weight: bold;
   font-family: monospace;
