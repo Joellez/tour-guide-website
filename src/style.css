@@ -5,7 +5,15 @@ body {
     rgb(122, 21, 21) 100.7%
   );
 }
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 40px;
+}
+
 h1 {
+  margin-top: 50px;
   text-align: center;
   font-weight: bold;
   font-family: monospace;
@@ -14,12 +22,34 @@ h1 {
   border-radius: 4px;
   padding: 20px;
 }
+
+.nav {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  border: 0.5px solid rgb(206, 18, 18);
+}
+
+.nav-link {
+  color: rgb(206, 18, 18);
+}
+.nav-pills .nav-link.active {
+  background-color: rgb(206, 18, 18);
+}
+
+#with-joelle {
+  font-weight: 300;
+  font-size: 25px;
+}
+
 h2 {
   text-align: center;
   font-weight: bold;
   font-family: monospace;
   font-size: 20px;
-  padding-top: 10px;
+  padding: 10px;
 }
 
 img {
@@ -30,6 +60,7 @@ img {
 }
 
 p {
+  padding: 20px;
   text-align: center;
   line-height: 1.5;
   font-family: monospace;
@@ -72,29 +103,23 @@ button:hover {
   text-decoration: none;
   color: rgb(206, 18, 18);
 }
-.guard-times:hover {
-  text-decoration: underline;
-}
+
 .afternoon-tour {
   display: block;
   text-align: center;
   line-height: 1.5;
   font-family: monospace;
 }
-.insta {
+a {
   color: rgb(206, 18, 18);
   text-decoration: none;
+  font-weight: bold;
 }
-.insta:hover {
+a:hover {
   text-decoration: underline;
+  color: rgb(10, 88, 202);
 }
 .footer-end {
   text-align: center;
   font-family: monospace;
-}
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 30px 60px;
-  background-color: white;
 }
