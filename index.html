@@ -133,7 +133,9 @@ please see ........ or contact me for more information.</p>
 <div><a>Contact</a></div>
 <br />
 
-<div class="row"><div class="mb-3 col-6">
+
+<!---
+	<div class="row"><div class="mb-3 col-6">
   <label for="exampleFormControlInput1" class="form-label">Name</label>
   <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Write your name here">
 </div>
@@ -147,7 +149,19 @@ please see ........ or contact me for more information.</p>
 </div>
 <input class="btn btn-primary col-2" id ="contact-button" type="submit" value="Submit">
 
+--->
 
+<main>
+<p>Send E-mail</p>
+<form class= "contact-form" action="contactform.php" method="post">
+  <input type="text" name="name" placeholder="Full name">
+  <input type="text" name="mail" placeholder="Your email">
+  <input type="text" name="subject" placeholder="Subject">
+  <textarea name="message" placeholder="Message"></textarea>
+  <button type="submit" name="submit">Send Email</button>
+</form>
+
+</main>
 
 
 
