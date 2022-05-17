@@ -1,4 +1,3 @@
-
 body {
   background: radial-gradient(
     circle at 10.6% 22.1%,
@@ -49,9 +48,12 @@ h1 {
 li {
   display: inline-block;
   margin: 0 10px;
+  
 }
 ul {
   padding-left: 50px;
+  text-align: justify;
+
 }
 
 h2,
