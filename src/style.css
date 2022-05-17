@@ -40,8 +40,6 @@ h1 {
   background: rgb(206, 18, 18);
 }
 
-
-
 #with-joelle {
   font-weight: 300;
   font-size: 25px;
@@ -50,6 +48,9 @@ h1 {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+ul {
+  padding-left: 50px;
 }
 
 h2,
@@ -145,5 +146,3 @@ a:hover {
   text-align: center;
   font-family: monospace;
 }
-
- 
