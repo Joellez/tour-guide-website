@@ -1,14 +1,27 @@
+:root {
+  --background-color: radial-gradient(
+    circle at 10.6% 22.1%,
+    rgb(206, 18, 18) 0%,
+    rgb(122, 21, 21) 100.7%
+  );
+  --container-color: #fff;
+  --font-color: rgb(206, 18, 18);
+}
+
 body {
   background: radial-gradient(
     circle at 10.6% 22.1%,
     rgb(206, 18, 18) 0%,
     rgb(122, 21, 21) 100.7%
+      /*fallback colour for older browsers not supporting css variables*/
   );
+  background: var(--background-color);
 }
 .container {
   max-width: 800px;
   margin: 0 auto;
   background-color: #fff;
+  background-color: var(--container-color);
   padding: 30px 40px;
 }
 
@@ -19,6 +32,7 @@ h1 {
   font-family: monospace;
   border: 1px solid black;
   border-color: rgb(206, 18, 18);
+  border-color: var(--font-color);
   border-radius: 4px;
   padding: 20px;
 }
@@ -30,14 +44,17 @@ h1 {
   top: 0;
   left: 0;
   border: 0.5px solid rgb(206, 18, 18);
+  border: 0.5px solid var(--font-color);
 }
 
 .nav-link {
   color: rgb(206, 18, 18);
+  color: var(--font-color);
 }
 
 .nav-link:hover {
   background: rgb(206, 18, 18);
+  background: var(--font-color);
 }
 
 #with-joelle {
@@ -84,6 +101,7 @@ button {
   display: block;
   margin: 20px auto;
   background: rgb(206, 18, 18);
+  background: var(--font-color);
   color: white;
   font-family: monospace;
   font-size: 18px;
@@ -96,6 +114,7 @@ button {
 
 form {
   background: rgb(206, 18, 18);
+  background: var(--font-color);
   color: white;
   border: none;
   border-radius: 4px;
@@ -126,6 +145,7 @@ button:hover {
   margin: 10px;
   text-decoration: none;
   color: rgb(206, 18, 18);
+  color: var(--font-color);
 }
 
 .afternoon-tour {
@@ -136,6 +156,7 @@ button:hover {
 }
 a {
   color: rgb(206, 18, 18);
+  color: var(--font-color);
   text-decoration: none;
   font-weight: bold;
 }
